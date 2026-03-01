@@ -57,7 +57,7 @@ const TitleUpdater = () => {
       '/dashboard/creator/manage-audio': 'Manage Audio',
     };
 
-    const baseTitle = "Fatkhurrhn | Fullstack Developer Portfolio";
+    const baseTitle = "Fullstack Developer Portfolio";
 
     // Cari title berdasarkan path
     let pageTitle = titles[location.pathname];
