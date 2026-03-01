@@ -6,7 +6,7 @@
 
 ## ✨ Live Demo
 
-🔗 [Visit My Portfolio](https://portfolio-fadev.vercel.app) *(sesuaikan dengan domainmu)*
+🔗 [Visit My Portfolio](https://portfolio-fadev.vercel.app)
 
 ## 🛠️ Tech Stack
 
@@ -21,37 +21,6 @@
 - **ESLint** - Code linting
 - **PostCSS** - CSS processing
 - **Vercel** - Hosting & Deployment
-
-## 📂 Project Structure
-
-📦 fadev-portfolio
-├── 📁 public
-│ ├── 📁 assets
-│ │ ├── 📁 mentahan-video/ # Background videos
-│ │ ├── *.png # Project images & assets
-│ │ └── *.jpg # Profile pictures
-│ ├── 📁 cv/ # Downloadable CV files
-│ ├── favicon.png
-│ ├── sitemap.xml
-│ └── robots.txt
-├── 📁 src
-│ ├── 📁 components
-│ │ ├── 📁 common/ # Reusable components
-│ │ ├── BlogSection.jsx
-│ │ ├── ProjectsSection.jsx
-│ │ └── ...
-│ ├── 📁 data/ # Static data files
-│ ├── 📁 layout/ # Layout components
-│ ├── 📁 pages
-│ │ ├── 📁 admin/ # Admin dashboard pages
-│ │ ├── HomePage.jsx
-│ │ ├── Project.jsx
-│ │ ├── Blog.jsx
-│ │ └── ...
-│ ├── App.jsx
-│ ├── firebase.js # Firebase configuration
-│ └── main.jsx
-└── ...
 
 ## 🌟 Key Features
 
@@ -108,7 +77,6 @@ yarn install
 ```
 
 2. **Environment Setup**
-Create a .env file in the root directory:
 ```bash
 VITE_FIREBASE_API_KEY=your_api_key
 VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
